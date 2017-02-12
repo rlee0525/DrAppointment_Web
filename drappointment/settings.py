@@ -78,6 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'drappointment_web',
+        'HOST': '127.0.0.1',
+        'PORT': '5432'
     }
 }
 
