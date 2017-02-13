@@ -1,8 +1,10 @@
 from django.shortcuts import render
+from django.http import HttpResponse
+from django.template import loader
+# Create your views here.
 
 # Create your views here.
-from django.http import Http404
 
-# Create your views here.
 def root(request):
-    return render(request, 'base.html')
+    context = { }
+    return render(request, 'api/base.html', context)
